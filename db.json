@@ -1,0 +1,321 @@
+{
+  "rooms": [
+    {
+      "name": "Room 703",
+      "price": 11000,
+      "lodged": true,
+      "lodgerId": 1,
+      "timer": 837384,
+      "id": 7
+    },
+    {
+      "name": "Room 903",
+      "price": 12500,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 8
+    },
+    {
+      "name": "Room 863",
+      "price": 32500,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 9
+    },
+    {
+      "name": "Room 445",
+      "price": 7500,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 10
+    },
+    {
+      "name": "Room 675",
+      "price": 8000,
+      "lodged": true,
+      "lodgerId": 2,
+      "timer": 837384,
+      "id": 11
+    },
+    {
+      "name": "Room 003",
+      "price": 41000,
+      "lodged": false,
+      "lodgerId": 3,
+      "timer": 837384,
+      "id": 12
+    },
+    {
+      "name": "Room 113",
+      "price": 41000,
+      "lodged": false,
+      "lodgerId": 4,
+      "timer": 837384,
+      "id": 13
+    },
+    {
+      "name": "Room 323",
+      "price": 8000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 14
+    },
+    {
+      "name": "Room 993",
+      "price": 8000,
+      "lodged": false,
+      "lodgerId": 5,
+      "timer": 837384,
+      "id": 222
+    },
+    {
+      "name": "Room 823",
+      "price": 19000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 126
+    },
+    {
+      "name": "Room 103",
+      "price": 89000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 26
+    },
+    {
+      "name": "Room 093",
+      "price": 9000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 261
+    },
+    {
+      "name": "Room 453",
+      "price": 1000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 266
+    },
+    {
+      "name": "Room 553",
+      "price": 89000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 99
+    },
+    {
+      "name": "Room 103",
+      "price": 89000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 988
+    },
+    {
+      "name": "Room 003",
+      "price": 89000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 322
+    },
+    {
+      "name": "Room 983",
+      "price": 89000,
+      "lodged": false,
+      "lodgerId": null,
+      "timer": 837384,
+      "id": 29
+    }
+  ],
+  "expenses": [
+    {
+      "id": 13,
+      "amount": 19500,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    },
+    {
+      "id": 24,
+      "amount": 100,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    },
+    {
+      "id": 37,
+      "amount": 3000,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    },
+    {
+      "id": 11,
+      "amount": 7000,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    },
+    {
+      "id": 17,
+      "amount": 1900,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    },
+    {
+      "id": 19,
+      "amount": 85000,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    },
+    {
+      "id": 101,
+      "amount": 34000,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    },
+    {
+      "id": 211,
+      "amount": 900,
+      "isApproved": true,
+      "desccription": "paid the nepa bill"
+    }
+  ],
+  "lodgers": [
+    {
+      "id": 1,
+      "name": "john Nonso",
+      "address": "1, ogbili str afro",
+      "phone": "08029141503"
+    },
+    {
+      "id": 2,
+      "name": "Louis v",
+      "address": "1, catrene str afro",
+      "phone": "081763678348"
+    },
+    {
+      "id": 3,
+      "name": "Antony paul ",
+      "address": "1, pare str afro",
+      "phone": "09037728837"
+    },
+    {
+      "id": 4,
+      "name": "Richard Peter",
+      "address": "1, step str afro",
+      "phone": "08029254644"
+    },
+    {
+      "id": 5,
+      "name": "paul Tiffy",
+      "address": "1, national str afro",
+      "phone": "07064637663"
+    },
+    {
+      "id": 7,
+      "name": "chisom emmanuel",
+      "address": "1, national str afro",
+      "phone": "07064637663"
+    }
+  ],
+
+  "users": [
+ 
+    {
+      "id": 7,
+      "name": "Chima Paul",
+      "address":"1, catrene str afro"
+    
+    }
+  ],
+
+  "debts": [
+
+
+    {
+      "id": 15,
+      "userId": 7,
+      "amount": 20000,
+      "paid": false,
+      "interest_rate": 20,
+      "extendedLength": 7,
+      "created_at": "2020-08-20",
+      "expires_at": "2020-09-13",
+      "collateral": {
+        "name": "iphone 8",
+        "condition": "used",
+        "img": "item.PNG"
+      }
+
+    }
+    
+  ],
+
+  "plans": [
+    {
+      "id": 43,
+      "name": "Type A",
+      "duration": 1,
+      "extended": 7,
+      "intrest": "10"
+    }
+  ],
+
+  "loans":[
+    {
+      "id": 3,
+      "name": "Party Loan",
+      "description": "This loan is meant to provide flexibilty for the people that really need some money for party",
+      "durationLength": 30,
+      "gracePeriodLength": 10,
+      "minAmount": 1000,
+      "maxAmount": 10000
+
+    },
+
+    {
+      "id": 5,
+      "name": "School Loan",
+      "description": "This loan is meant to provide flexibilty for the people that really need some money for party",
+      "durationLength": 30,
+      "gracePeriodLength": 10,
+      "minAmount": 5000,
+      "maxAmount": 25000
+
+    }
+  ],
+
+
+  "request": [
+    {
+      "id": 23,
+      "collateralId": 1,
+      "amount": 3444,
+      "planId": 43,
+      
+      "status": "pending"
+    }
+  ],
+
+  "collateral": [
+    {
+      "id": 12,
+      "userId": 7,
+      "name": "iphone 6plus",
+      "condition": "used"
+
+
+    }
+      
+      
+  ]
+
+}
+

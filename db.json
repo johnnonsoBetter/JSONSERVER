@@ -293,20 +293,29 @@
   ],
 
 
-  "request": [
+  "applications": [
     {
       "id": 23,
-      "collateralId": 1,
-      "amount": 3444,
-      "planId": 43,
+      "collateralName": "Iphone 6s plus",
+      "amount": 3600,
+      "loanName": "Plan 606",
+      "duration": 31
       
-      "status": "pending"
+    },
+
+    {
+      "id": 23,
+      "collateralName": "Laptop p6",
+      "amount": 13600,
+      "loanName": "Plan 500",
+      "duration": 60
+      
     }
   ],
 
-  "collateral": [
+  "collaterals": [
     {
-      "id": 12,
+      "id": 1,
       "userId": 7,
       "name": "iphone 6plus",
       "condition": "used"

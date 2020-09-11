@@ -225,20 +225,14 @@
       "phone": "07064637663"
     }
   ],
-
   "users": [
- 
     {
       "id": 7,
       "name": "Chima Paul",
-      "address":"1, catrene str afro"
-    
+      "address": "1, catrene str afro"
     }
   ],
-
   "debts": [
-
-
     {
       "id": 15,
       "userId": 7,
@@ -246,29 +240,16 @@
       "paid": false,
       "interest_rate": 20,
       "extendedLength": 7,
-      "created_at": "2020-08-20",
-      "expires_at": "2020-09-13",
+      "created_at": "2020-06-20",
+      "expires_at": "2020-09-19",
       "collateral": {
         "name": "iphone 8",
         "condition": "used",
         "img": "item.PNG"
       }
-
-    }
-    
-  ],
-
-  "plans": [
-    {
-      "id": 43,
-      "name": "Type A",
-      "duration": 1,
-      "extended": 7,
-      "intrest": "10"
     }
   ],
-
-  "loans":[
+  "loans": [
     {
       "id": 3,
       "name": "Party Loan",
@@ -277,9 +258,7 @@
       "gracePeriodLength": 10,
       "minAmount": 1000,
       "maxAmount": 10000
-
     },
-
     {
       "id": 5,
       "name": "School Loan",
@@ -288,43 +267,52 @@
       "gracePeriodLength": 10,
       "minAmount": 5000,
       "maxAmount": 25000
-
     }
   ],
-
-
   "applications": [
     {
-      "id": 23,
-      "collateralName": "Iphone 6s plus",
-      "amount": 3600,
-      "loanName": "Plan 606",
-      "duration": 31
-      
+      "id": "53d26915-e6f1-4c77-92e1-c388297167b9",
+      "collateralName": "Mac book pro",
+      "amount": 14500,
+      "collateraCondition": "New",
+      "duration": 30,
+      "gracePeriod": 10,
+      "loanName": "School Loan"
     },
-
     {
-      "id": 23,
-      "collateralName": "Laptop p6",
-      "amount": 13600,
-      "loanName": "Plan 500",
-      "duration": 60
-      
+      "id": "4dda9b34-f5e5-495a-b382-0878a25a98e1",
+      "collateralName": "Samsung ",
+      "amount": 3500,
+      "collateraCondition": "New",
+      "duration": 30,
+      "gracePeriod": 10,
+      "loanName": "Party Loan"
+    },
+    {
+      "id": "fc4b20b3-11b8-4dff-aa1f-f5973d46474e",
+      "collateralName": "Karoake disc",
+      "amount": 18000,
+      "collateraCondition": "Used",
+      "duration": 30,
+      "gracePeriod": 10,
+      "loanName": "School Loan"
+    },
+    {
+      "id": "220360e5-900c-4eb6-87a6-35fcea5b47c7",
+      "collateralName": "Ipod Air 3",
+      "amount": 4500,
+      "collateraCondition": "Used",
+      "duration": 30,
+      "gracePeriod": 10,
+      "loanName": "Party Loan"
     }
   ],
-
   "collaterals": [
     {
       "id": 1,
       "userId": 7,
       "name": "iphone 6plus",
       "condition": "used"
-
-
     }
-      
-      
   ]
-
 }
-

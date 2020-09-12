@@ -239,8 +239,8 @@
       "amount": 20000,
       "paid": false,
       "interest_rate": 20,
-      "extendedLength": 7,
-      "created_at": "2020-06-20",
+      "gracePeriodLength": 7,
+      "created_at": "2020-09-10",
       "expires_at": "2020-09-19",
       "collateral": {
         "name": "iphone 8",
@@ -252,7 +252,8 @@
   "loans": [
     {
       "id": 3,
-      "name": "Party Loan",
+      "name": "Flexing",
+      "img": "fun.svg",
       "description": "This loan is meant to provide flexibilty for the people that really need some money for party",
       "durationLength": 30,
       "gracePeriodLength": 10,
@@ -261,12 +262,23 @@
     },
     {
       "id": 5,
-      "name": "School Loan",
+      "name": "School And Study",
+      "img": "study.svg",
       "description": "This loan is meant to provide flexibilty for the people that really need some money for party",
-      "durationLength": 30,
+      "durationLength": 60,
       "gracePeriodLength": 10,
       "minAmount": 5000,
       "maxAmount": 25000
+    },
+    {
+      "id": 13,
+      "name": "Small Business",
+      "img": "invest.svg",
+      "description": "This loan is meant to provide flexibilty for the people that really need some money for party",
+      "durationLength": 120,
+      "gracePeriodLength": 14,
+      "minAmount": 15000,
+      "maxAmount": 30000
     }
   ],
   "applications": [
@@ -305,6 +317,24 @@
       "duration": 30,
       "gracePeriod": 10,
       "loanName": "Party Loan"
+    },
+    {
+      "id": "0a5a28ad-6aea-42fd-adf9-af64ad338b78",
+      "collateralName": "Mac book pro",
+      "amount": 13000,
+      "collateraCondition": "Used",
+      "duration": 30,
+      "gracePeriod": 10,
+      "loanName": "School Loan"
+    },
+    {
+      "id": "6e103e0e-1924-4d0f-bb42-3a935795720a",
+      "collateralName": "Samsung galaxy s9",
+      "amount": 16500,
+      "collateraCondition": "New",
+      "duration": 30,
+      "gracePeriod": 10,
+      "loanName": "School Loan"
     }
   ],
   "collaterals": [
